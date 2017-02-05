@@ -284,7 +284,7 @@ a.active {
 #home {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 .table-cell {
@@ -294,7 +294,7 @@ a.active {
 
 .disply-table {
     display: table;
-    height: 80vh;
+    height: 100vh;
 }
 
 
@@ -311,7 +311,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #36B48A;
+    border: 10px solid rgba(54, 180, 138, 0.5);
     width: 400px;
     height: 400px;
     top: 40px;
