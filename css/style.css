@@ -77,7 +77,9 @@ body {
     font-size: 50px;
     line-height: 50px
 }
-
+.h-20 {
+    height: 20px;
+}
 .h-50 {
     height: 50px;
 }
@@ -493,6 +495,8 @@ a.active {
     overflow: hidden;
     display: block;
     margin-bottom: 30px;
+    height: 350px;
+    width: 350px;
 }
 
 .portfolio_item .portfolio_item_hover {
@@ -501,7 +505,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgba(54, 180, 138 ,0.9);
+
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -799,4 +803,8 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+.active2{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
